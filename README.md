@@ -13,7 +13,7 @@ Note this will translate the old TDA symbols to Swab symbols ($SPX.X = $SPX)
 Usage:
 ```
 client = Client()
-client.setup() 
+client.setup() #every 90 days
 qoute = client.get_Qoute('$SPX.X')
 chain = client.get_Option('$SPX.X',datetime.now())
 ```
