@@ -11,7 +11,9 @@ If you get a 404 error, its likely because you need to go into the swab portal a
 Note this will translate the old TDA symbols to Swab symbols ($SPX.X = $SPX)
 
 Usage:
+```
 client = Client()
 client.setup() 
 qoute = client.get_Qoute('$SPX.X')
 chain = client.get_Option('$SPX.X',datetime.now())
+```
