@@ -202,7 +202,7 @@ class Client:
 if(__name__ == '__main__'):
     logging.basicConfig(format='%(levelname)s - %(asctime)s: %(message)s',datefmt='%H:%M:%S', level=logging.DEBUG)
     client = Client()
-    #client.setup() #Run this first then every 90 days
+    #client.setup() #Run this first then every 7 days
    
     qoute = client.get_Qoute('$SPX.X')
     print(qoute)
